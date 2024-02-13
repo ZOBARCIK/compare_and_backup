@@ -112,7 +112,7 @@ int main(){
     ///////////project file directory validity control
     if(!fcurrent){
         perror("ERROR:Input file could not be located/opened. Exiting program.");
-        //remove("location.txt");
+        remove("location.txt");
         return(EXIT_FAILURE);
         exit(EXIT_FAILURE);}
     else{
